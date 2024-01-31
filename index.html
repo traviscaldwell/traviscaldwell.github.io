@@ -1,19 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="sl-theme-dark" lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Travis Caldwell</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.13.1/cdn/themes/dark.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.13.1/cdn/shoelace-autoloader.js"></script>
   </head>
   <body>
-    <h1>Travis Caldwell - Analyst, Developer, Tinkerer</h1>
-    <h2 class="h2-intro-title">Hello and welcome to my github page!</h2>
-    <h2 class="h2-intro-statement">I am an analyst with a background in SQL, Python, Excel, Tableau, and multiple programming languages. I love working with complex data and finding unique solutions and insights through coding and analysis.</h2>
-    <h2 class="h2-intro-statement">On this site you can see previews of some of my previous and current hobby projects as well as descriptions of my professional skills and work</h2>
-    <h2 class="h2-contact-title">For inquiries/professional offers please contact me at:</h2>
-    <h3 class="h3-contact-detail">Email: tcaldwell@protonmail.ch</h3>
+    <h1 class="header">Travis Caldwell - Analyst, Developer, Tinkerer</h1>
+    <div class="nav-bar">
+        <a href="#" class="nav-button" id="btn-introtitle">Home</a>
+        <a href="#" class="nav-button" id="btn-myskills">My Skillset</a>
+        <a href="#" class="nav-button" id="btn-professional">Professional Work</a>
+        <a href="#" class="nav-button" id="btn-hobbywork">Personal Projects</a>
+    </div>
+    <div class="intro-textbox">
+        <h2 class="h2-intro-title">Hello and welcome to my github page!<br/>This site was made as a personal challenge to make a website in under a day with minimal prior web development knowledge.</h2>    
+        <h2 class="h2-intro-statement">On this site you can see previews of some of my previous and current hobby projects as well as descriptions of my professional skills and work</h2>
+        <div class="intro-hbox">
+            <div class="hbox-object">
+                <h2 class="h2-detail-statement">I am an analyst with a background in SQL, Python, Excel, Tableau, and multiple programming languages. I love working with complex data and finding unique solutions and insights through coding and analysis.</h2>
+            </div>
+            <div class="hbox-object">
+                <h2 class="h2-contact-title">For inquiries/professional offers please contact me at:</h2>
+                <h3 class="h3-contact-detail">Email: tcaldwell@protonmail.ch</h3>
+            </div>
+        </div>
+    </div> 
+    <div class="gallery" id="skill-gallery">
+        <div class="gallery-tile">
+
+        </div>
+    </div>
+    <div class="gallery" id="professional-gallery">
+        <span class="gallery-title" id="professional-gallery-title">Professional Work</span>
+            <div class="gallerygrid" id="professional-gallery-grid">
+                <sl-card class="card-overview">
+                    <img
+                    slot="image"
+                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                    alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+                    />
+                
+                    <strong>Mittens</strong><br />
+                    This kitten is as cute as he is playful. Bring him home today!<br />
+                    <small>6 weeks old</small>
+                </sl-card>
+                <sl-card class="card-overview">
+                    <img
+                    slot="image"
+                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                    alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+                    />
+                
+                    <strong>Mittens</strong><br />
+                    This kitten is as cute as he is playful. Bring him home today!<br />
+                    <small>6 weeks old</small>
+                </sl-card>
+                <sl-card class="card-overview">
+                    <img
+                    slot="image"
+                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                    alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+                    />
+                
+                    <strong>Mittens</strong><br />
+                    This kitten is as cute as he is playful. Bring him home today!<br />
+                    <small>6 weeks old</small>
+                </sl-card>
+                <sl-card class="card-overview">
+                    <img
+                    slot="image"
+                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                    alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+                    />
+                
+                    <strong>Mittens</strong><br />
+                    This kitten is as cute as he is playful. Bring him home today!<br />
+                    <small>6 weeks old</small>
+                </sl-card>
+                <sl-card class="card-overview">
+                    <img
+                    slot="image"
+                    src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                    alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+                    />
+                
+                    <strong>Mittens</strong><br />
+                    This kitten is as cute as he is playful. Bring him home today!<br />
+                    <small>6 weeks old</small>
+                </sl-card>
+            </div>
+    </div>
+    <div class="gallery" id="personal-gallery">
+
+    </div>
 	<script src="index.js"></script>
   </body>
 </html>
